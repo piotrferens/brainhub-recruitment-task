@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "create-collection": "node ./collections/event"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-validator": "^5.1.2",
+    "lodash": "^4.17.5",
+    "mongodb": "^3.0.6",
+    "nodemon": "^1.17.3"
+  }
+}
